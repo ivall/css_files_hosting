@@ -1,0 +1,39 @@
+html, body {
+    margin: 0;
+    font-family: 'Fira Sans', sans-serif;
+}
+#code_editor {
+    height: 85%;
+}
+.codeflask {
+    height: 85% !important;
+}
+.container {
+    display: flex;
+    flex-direction: column-reverse;
+}
+.upload_code {
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 20px;
+    height: 95%;
+    align-items: flex-end;
+}
+.upload_code_button {
+    border: 2px solid #a972cb;
+    line-height: 1;
+    padding: 1em 2em;
+    font: 300 1em 'Fira Sans', sans-serif;
+    background: none;
+    color: #a972cb;
+    margin: 0 0 13px 15px;
+    outline: none;
+    transition: .2s;
+}
+.upload_code_button:hover {
+    background: #a972cb;
+    color: #fff;
+    cursor: pointer;
+}
